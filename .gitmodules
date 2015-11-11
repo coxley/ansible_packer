@@ -1,0 +1,6 @@
+[submodule "library"]
+	path = library
+	url = https://github.com/austinhyde/ansible-packer
+[submodule "tasks/aur"]
+	path = tasks/aur
+	url = https://gist.github.com/39ecb1eb1ab8ee1d0ce1.git
