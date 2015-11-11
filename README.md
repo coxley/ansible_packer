@@ -48,6 +48,12 @@ Then in the following dependencies and the role itself you will have access to
 
 ```
 
+Requirements
+------------
+
+You must have httplib2 for Python installed where you are running Ansible
+*from*
+
 License
 -------
 
