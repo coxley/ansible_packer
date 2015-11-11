@@ -3,7 +3,7 @@ coxley.packer
 
 [![Do what the fuck you want](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-2.png)](http://www.wtfpl.net/)
 
-Note: This is Archlinux `packer`, not Hashicorp.
+Note: This is Archlinux `packer`, not Hashicorp
 
 The purpose of this role is to install pre-reqs for ansible-packer and expose
 this module for use.
@@ -27,7 +27,6 @@ Assuming you have role `common`, edit `meta/main.yml`:
 ```yaml
 
 ---
-
 dependencies:
   - { role: 'coxley.packer', when: ansible_os_family == 'Archlinux' }
 ```
